@@ -1,5 +1,11 @@
 {
   "elemy": {
+    "meta": {
+      "website": "http://www.elemy.ru",
+      "brand": "Elemy",
+      "description": "Российские системы мониторинга и управления электропитанием для IT и АСУТП",
+      "logo": "http://www.elemy.ru/image/cache/webp/catalog/elemy_logo2-260x80.webp"
+    },
     "ats-1204": {
       "meta": {
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/ATS-1204/README.md",
@@ -39,6 +45,27 @@
         }
       }
     },
+    "ccu1001": {
+      "meta": {
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/README.md"
+      },
+      "dashboard": {
+        "files": [
+          {
+            "name": "CCU-1001-1715690184272.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/CCU1001/dashboard/CCU-1001-1715690184272.json"
+          }
+        ]
+      },
+      "snmp": {
+        "files": [
+          {
+            "name": "Elemy_CCU1001_snmp_1.0.0.conf",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/CCU1001/SNMP/Elemy_CCU1001_snmp_1.0.0.conf"
+          }
+        ]
+      }
+    },
     "ats-1205": {
       "meta": {
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/ATS-1205/README.md",
@@ -63,27 +90,6 @@
         ]
       }
     },
-    "ccu1001": {
-      "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/README.md"
-      },
-      "snmp": {
-        "files": [
-          {
-            "name": "Elemy_CCU1001_snmp_1.0.0.conf",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/CCU1001/SNMP/Elemy_CCU1001_snmp_1.0.0.conf"
-          }
-        ]
-      },
-      "dashboard": {
-        "files": [
-          {
-            "name": "CCU-1001-1715690184272.json",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/CCU1001/dashboard/CCU-1001-1715690184272.json"
-          }
-        ]
-      }
-    },
     "pdu1502": {
       "meta": {
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/PDU1502/README.md"
@@ -104,15 +110,15 @@
           }
         ]
       }
-    },
-    "meta": {
-      "website": "http://www.elemy.ru",
-      "brand": "Elemy",
-      "description": "Российские системы мониторинга и управления электропитанием для IT и АСУТП",
-      "logo": "http://www.elemy.ru/image/cache/webp/catalog/elemy_logo2-260x80.webp"
     }
   },
   "exagate": {
+    "meta": {
+      "website": "https://www.exagate.com/",
+      "brand": "Exagate",
+      "description": "Exagate solutions monitor the energy infrastructure in critical facilities such as Data Centers, computer or server rooms, MERs, SERs and unmanned, remote locations. They report the current status 24/7 and enables you to increase the operational efficiency of your facility through energy management of the devices.",
+      "logo": "https://www.exagate.com/demos/assets/images/logo.png"
+    },
     "pwg-9332-307-901-siph": {
       "meta": {
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/README.md"
@@ -138,16 +144,19 @@
           }
         ]
       }
-    },
-    "meta": {
-      "website": "https://www.exagate.com/",
-      "brand": "Exagate",
-      "description": "Exagate solutions monitor the energy infrastructure in critical facilities such as Data Centers, computer or server rooms, MERs, SERs and unmanned, remote locations. They report the current status 24/7 and enables you to increase the operational efficiency of your facility through energy management of the devices.",
-      "logo": "https://www.exagate.com/demos/assets/images/logo.png"
     }
   },
   "icd-das": {
+    "meta": {
+      "website": "https://www.icpdas.com/",
+      "brand": "icp-das",
+      "description": "Industrial Automation Manufacturer",
+      "logo": "https://www.icpdas.com/en/_images/all/logo.png"
+    },
     "dl-303": {
+      "meta": {
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICD-DAS/DL-303/README.md"
+      },
       "modbusrtu": {
         "files": [
           {
@@ -163,16 +172,7 @@
             "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICD-DAS/DL-303/ModbusTCP/ICD-DAS_DL-303_ModbusTCP_1.0.0.conf"
           }
         ]
-      },
-      "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICD-DAS/DL-303/README.md"
       }
-    },
-    "meta": {
-      "website": "https://www.icpdas.com/",
-      "brand": "icp-das",
-      "description": "Industrial Automation Manufacturer",
-      "logo": "https://www.icpdas.com/en/_images/all/logo.png"
     }
   }
 }
