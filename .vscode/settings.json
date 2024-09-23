@@ -69,4 +69,9 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
+  "cSpell.words": [
+    "Elemy",
+    "Modbus",
+    "snmp"
+  ],
 }

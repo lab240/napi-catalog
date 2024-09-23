@@ -1,0 +1,8 @@
+{
+    "model": "ATS-1205",
+    "vendor": "Elemy",
+    "url": "http://www.elemy.ru/rack-ats/ats-1205",
+    "documentation": "http://www.elemy.ru/storage/download/ATS-1205%20Technical%20Documentation.zip",
+    "description": "ATS-1205 - 16-ти канальный автоматический переключатель питания",
+    "tags": ["rack", "ATS", "АВР", "snmp"]
+}
