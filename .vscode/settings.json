@@ -1,0 +1,72 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.shellcheck": "explicit"
+  },
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    90
+  ],
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 90,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "files.encoding": "utf8",
+  "files.eol": "auto",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "todo-tree.general.tagGroups": {
+    "BUG": [
+      "BUG",
+      "ERROR",
+      "ERR",
+      "ISSUE",
+      "PROBLEM"
+    ],
+    "HACK": [
+      "HACK",
+      "HACKY",
+      "HACKED",
+      "HACKING",
+      "HACKS"
+    ],
+    "FIX": [
+      "FIXME",
+      "FIXIT",
+      "FIX IT",
+      "FIX"
+    ],
+    "TODO": [
+      "TODO",
+      "TO DO",
+      "TO-DO",
+      "TASK",
+      "TASKS",
+      "DO IT",
+      "DOIT"
+    ],
+    "IDEA": [
+      "IDEA",
+      "IDEAS"
+    ]
+  },
+  "todo-tree.filtering.excludeGlobs": [
+    "**/.vscode/**",
+    "**/.git/**",
+    "**/.github/**",
+    ".gitignore"
+  ],
+  "todo-tree.tree.hideTreeWhenEmpty": true,
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "[yaml]": {
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+}

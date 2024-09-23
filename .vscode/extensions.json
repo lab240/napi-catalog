@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "usernamehw.errorlens",
+        "bierner.markdown-footnotes",
+        "davidanson.vscode-markdownlint",
+        "gruntfuggly.todo-tree",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-russian",
+        "aaron-bond.better-comments"
+    ]
+}
