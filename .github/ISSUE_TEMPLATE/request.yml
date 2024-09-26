@@ -1,0 +1,16 @@
+
+name: Add a new sensor configuration
+description: Request to add a new sensor to the integration.
+labels: [feature]
+body:
+  - type: input
+    attributes:
+      label: Link to the sensor website
+      description: Please enter the official link.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Please enter any additional information if available.

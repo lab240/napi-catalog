@@ -1,0 +1,113 @@
+
+name: Add a new sensor configuration
+description: Request to add a new sensor to the integration.
+labels: [feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Important things:
+
+        - **Please fill out this template with all the details.**
+
+  - type: checkboxes
+    attributes:
+      label: Have you read the Contributing Guidelines?
+      options:
+        - label: I have read the [Contributing Guidelines](https://github.com/lab240/napi-catalog/blob/main/CONTRIBUTING.md).
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Brand details
+
+  - type: input
+    attributes:
+      label: Brand name
+      description: Please enter the official name of the sensor brand as it is.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Brand website
+      description: Please enter the official website.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Brand Description
+      description: Please enter the brand description if available.
+
+  - type: input
+    attributes:
+      label: Brand logo
+      description: Please enter the brand description if available.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Sensor Model Details
+
+  - type: input
+    attributes:
+      label: Model name
+      description: Please enter model name.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Link to the sensor website
+      description: Please enter the official link.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Sensor documentation link
+      description: Please a enter link to pdf, zip, etc.
+
+  - type: textarea
+    attributes:
+      label: Sensor description
+      description: Please enter a description.
+
+  - type: input
+    attributes:
+      label: Sensor image url
+      description: Please enter a link to webp, jpg, etc.
+
+  - type: dropdown
+    attributes:
+      label: Protocol (config)
+      description: Please select the protocol for this configuration.
+      options:
+        - snmp
+        - modbus rtu
+        - modbus tcp
+        - other
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Sensor tags
+      description: Please specify comma separated tags (not more than 3, including protocol, e.g. snmp) for this sensor by which it can be found.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Sensor configuration
+      description: Please enter the configuration code.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Please enter any additional information if available.
