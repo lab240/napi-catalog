@@ -1,0 +1,48 @@
+# Read the docs here: https://pre-commit.com and http://jorisroovers.github.io/gitlint/
+# Install hooks to your clone:
+#   $ pre-commit install
+#
+# List of available hooks: https://pre-commit.com/hooks.html
+#
+
+default_stages: [pre-commit]
+default_install_hook_types: [pre-commit, commit-msg]
+fail_fast: false
+repos:
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
+      - id: check-useless-excludes
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-case-conflict
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-json
+      - id: pretty-format-json
+        args:
+          - '--autofix'
+          - '--no-ensure-ascii'
+        files: \.json$
+
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.19.1
+    hooks:
+      - id: gitlint
+        name: Commit message check
+        language: python
+        entry: gitlint --msg-filename
+        stages: [commit-msg]
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        name: Spell check
+
+  # - repo: https://github.com/igorshubovych/markdownlint-cli
+  #   rev: v0.41.0
+  #   hooks:
+  #     - id: markdownlint
