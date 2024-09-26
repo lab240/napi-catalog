@@ -73,6 +73,10 @@
     "Elemy",
     "Exagate",
     "Modbus",
-    "snmp"
+    "snmp",
+    "webp"
   ],
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-issue-config.json": "file:///Users/ikha/work/projects/napi/napi-catalog/.github/ISSUE_TEMPLATE/config.yml"
+  },
 }
