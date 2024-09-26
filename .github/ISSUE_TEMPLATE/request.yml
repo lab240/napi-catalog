@@ -1,4 +1,4 @@
-name: Add a new sensor configuration
+name: Request to add a new sensor
 description: Request to add a new sensor to the integration.
 labels: [feature]
 body:
