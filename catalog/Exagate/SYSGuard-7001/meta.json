@@ -1,0 +1,15 @@
+{
+  "description": "SYSGuard 7001 is a solution for large and medium sized Data Centers and server rooms with IT-equipment that allows the monitoring of critical environmental parameters such as temperature, humidity, fluid leak, smoke, airflow, air quality, air pressure, rack vibration via a central unit and external sensors. Our solution is easy to setup and use and sends alerts in case user-defined thresholds values are exceeded. Thereby with our environment monitoring system is assisted for the increase in efficiency,productivity and reliability of Data Centers.",
+  "documentation": "https://www.exagate.com/pdf/sysguard-en.pdf",
+  "image_url": "https://www.exagate.com/demos/assets/images/product/sysguard-7001.png",
+  "model": "SYSGuard-7001",
+  "tags": [
+    "snmp",
+    "modbus tcp",
+    "MQTT",
+    "RS-485",
+    "GPRS"
+  ],
+  "url": "https://www.exagate.com/sysguard7001-en.php",
+  "vendor": "Exagate"
+}

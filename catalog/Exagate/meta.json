@@ -1,6 +1,6 @@
 {
-    "website": "https://www.exagate.com/",
-    "brand": "Exagate",
-    "description": "Exagate solutions monitor the energy infrastructure in critical facilities such as Data Centers, computer or server rooms, MERs, SERs and unmanned, remote locations. They report the current status 24/7 and enables you to increase the operational efficiency of your facility through energy management of the devices.",
-    "logo": "https://www.exagate.com/demos/assets/images/logo.png"
+  "brand": "Exagate",
+  "description": "Exagate solutions monitor the energy infrastructure in critical facilities such as Data Centers, computer or server rooms, MERs, SERs and unmanned, remote locations. They report the current status 24/7 and enables you to increase the operational efficiency of your facility through energy management of the devices.",
+  "logo": "https://www.exagate.com/demos/assets/images/logo.png",
+  "website": "https://www.exagate.com/"
 }

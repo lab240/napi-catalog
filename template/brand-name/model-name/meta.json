@@ -1,9 +1,12 @@
 {
-    "vendor": "brand-name",
-    "model": "model-name",
-    "url": "url to product page",
-    "documentation": "url to documentation (pdf, zip, etc.)",
-    "description": "",
-    "image_url": "",
-    "tags": ["tag1", "tag2"]
+  "description": "",
+  "documentation": "url to documentation (pdf, zip, etc.)",
+  "image_url": "",
+  "model": "model-name",
+  "tags": [
+    "tag1",
+    "tag2"
+  ],
+  "url": "url to product page",
+  "vendor": "brand-name"
 }

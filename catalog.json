@@ -123,7 +123,17 @@
     },
     "pwg-9332-307-901-siph": {
       "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/README.md"
+        "description": "Устройство распределения электропитания Exagate PWG-9332-307-91-SIPH POWERGuard PDU, 32A Single Phase 1U, 8 x IEC Sockets (7 x C13 - 1 x C19), Outlet Metering",
+        "documentation": "https://nnz-ipc.ru/files/documentation/exagate/pwg-9332-307-91-siph_ds_ru.pdf",
+        "image_url": "https://nnz-ipc.ru/images/cms/data/import_files/1d/1d9d3ad057f311eeb91d00155d50c111_b192dd53e15811eeb91e00155d50c111.jpg",
+        "model": "PWG-9332-307-901-SIPH",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/README.md",
+        "tags": [
+          "snmp",
+          "modbus tcp"
+        ],
+        "url": "https://nnz-ipc.ru/catalogue/dc_equipment/power_distribution/ipdu/pwg-9332-307-91-siph/",
+        "vendor": "Exagate"
       },
       "snmp": {
         "files": [
@@ -136,7 +146,20 @@
     },
     "sysguard-7001": {
       "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/SYSGuard-7001/README.md"
+        "description": "SYSGuard 7001 is a solution for large and medium sized Data Centers and server rooms with IT-equipment that allows the monitoring of critical environmental parameters such as temperature, humidity, fluid leak, smoke, airflow, air quality, air pressure, rack vibration via a central unit and external sensors. Our solution is easy to setup and use and sends alerts in case user-defined thresholds values are exceeded. Thereby with our environment monitoring system is assisted for the increase in efficiency,productivity and reliability of Data Centers.",
+        "documentation": "https://www.exagate.com/pdf/sysguard-en.pdf",
+        "image_url": "https://www.exagate.com/demos/assets/images/product/sysguard-7001.png",
+        "model": "SYSGuard-7001",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/SYSGuard-7001/README.md",
+        "tags": [
+          "snmp",
+          "modbus tcp",
+          "MQTT",
+          "RS-485",
+          "GPRS"
+        ],
+        "url": "https://www.exagate.com/sysguard7001-en.php",
+        "vendor": "Exagate"
       },
       "snmp": {
         "files": [
@@ -151,7 +174,27 @@
   "icd-das": {
     "dl-303": {
       "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICD-DAS/DL-303/README.md"
+        "description": "Remote CO/CO2/Temperature/Humidity/Dew Point Data Logger with Safety Alarm (RS-485, Ethernet, PoE)",
+        "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
+        "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
+        "model": "DL-303",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICD-DAS/DL-303/README.md",
+        "tags": [
+          "modbus tcp",
+          "modbus rtu",
+          "tcp",
+          "rtu",
+          "Temperature",
+          "Humidity",
+          "RS-485",
+          "PoE",
+          "Ethernet",
+          "CO",
+          "CO2",
+          "Dew Point"
+        ],
+        "url": "https://www.icpdas.com/en/product/DL-303",
+        "vendor": "ICP-DAS"
       },
       "modbusrtu": {
         "files": [

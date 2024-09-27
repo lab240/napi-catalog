@@ -1,0 +1,12 @@
+{
+  "description": "Устройство распределения электропитания Exagate PWG-9332-307-91-SIPH POWERGuard PDU, 32A Single Phase 1U, 8 x IEC Sockets (7 x C13 - 1 x C19), Outlet Metering",
+  "documentation": "https://nnz-ipc.ru/files/documentation/exagate/pwg-9332-307-91-siph_ds_ru.pdf",
+  "image_url": "https://nnz-ipc.ru/images/cms/data/import_files/1d/1d9d3ad057f311eeb91d00155d50c111_b192dd53e15811eeb91e00155d50c111.jpg",
+  "model": "PWG-9332-307-901-SIPH",
+  "tags": [
+    "snmp",
+    "modbus tcp"
+  ],
+  "url": "https://nnz-ipc.ru/catalogue/dc_equipment/power_distribution/ipdu/pwg-9332-307-91-siph/",
+  "vendor": "Exagate"
+}

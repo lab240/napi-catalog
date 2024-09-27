@@ -1,0 +1,22 @@
+{
+  "description": "Remote CO/CO2/Temperature/Humidity/Dew Point Data Logger with Safety Alarm (RS-485, Ethernet, PoE)",
+  "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
+  "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
+  "model": "DL-303",
+  "tags": [
+    "modbus tcp",
+    "modbus rtu",
+    "tcp",
+    "rtu",
+    "Temperature",
+    "Humidity",
+    "RS-485",
+    "PoE",
+    "Ethernet",
+    "CO",
+    "CO2",
+    "Dew Point"
+  ],
+  "url": "https://www.icpdas.com/en/product/DL-303",
+  "vendor": "ICP-DAS"
+}
