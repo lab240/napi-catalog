@@ -1,5 +1,7 @@
 # Contributing
 
+[![Ru](https://img.shields.io/badge/Language-Русский-blue.svg)](CONTRIBUTING.ru-RU.md)
+
 Thank you for considering contributing to our project! Here are the guidelines for adding new entries:
 
 ## Adding New Entries

@@ -1,5 +1,7 @@
 # Template
 
+[![Ru](https://img.shields.io/badge/Language-Русский-blue.svg)](README.ru-RU.md)
+
 - [Template](#template)
   - [Folder Structure](#folder-structure)
   - [File Descriptions](#file-descriptions)
