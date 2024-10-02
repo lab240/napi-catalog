@@ -1,6 +1,6 @@
-# Elemy CCU1001
+# Elemy IPDU1502
 
-- [Elemy CCU1001](#elemy-ccu1001)
+- [Elemy IPDU1502](#elemy-ipdu1502)
   - [Info](#info)
   - [Changelog](#changelog)
     - [SNMP](#snmp)

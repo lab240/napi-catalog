@@ -1,1 +1,14 @@
-{}
+{
+  "description": "CCU-1001 - Контроллер мониторинга и управления (16 дискретных входов, 8 дискретных выходов)",
+  "documentation": "https://www.elemy.ru/storage/download/CCU-1001%20Technical%20Documentation.zip",
+  "image_url": "https://www.elemy.ru/image/cache/webp/catalog/products/CCU-1001f3d-1500x999.webp",
+  "model": "CCU-1001",
+  "tags": [
+    "rack",
+    "ATS",
+    "АВР",
+    "snmp"
+  ],
+  "url": "https://www.elemy.ru/ccu-1001",
+  "vendor": "Elemy"
+}

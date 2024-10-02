@@ -13,7 +13,7 @@
         }
       },
       "meta": {
-        "description": "ATS-1204 - 16-ти канальный автоматический переключатель питания",
+        "description": "ATS-1204 - Автоматический стоечный переключатель питания (до 10-ти потребителей)",
         "documentation": "http://www.elemy.ru/storage/download/ATS-1204%20Technical%20Documentation.zip",
         "image_url": "http://www.elemy.ru/image/cache/webp/catalog/Products-new/ats-1204-16-62-front-1500x500.webp",
         "model": "ATS-1204",
@@ -42,7 +42,7 @@
     },
     "ats-1205": {
       "meta": {
-        "description": "ATS-1205 - 16-ти канальный автоматический переключатель питания",
+        "description": "ATS-1205 - Автоматический переключатель питания (до 8-ми потребителей)",
         "documentation": "http://www.elemy.ru/storage/download/ATS-1205%20Technical%20Documentation.zip",
         "image_url": "http://www.elemy.ru/image/cache/webp/catalog/Products-new/ats-1205-16-62-front-1500x500.webp",
         "model": "ATS-1205",
@@ -72,10 +72,25 @@
             "name": "CCU-1001-1715690184272.json",
             "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/CCU1001/dashboard/CCU-1001-1715690184272.json"
           }
-        ]
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/dashboard/README.md"
+        }
       },
       "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/README.md"
+        "description": "CCU-1001 - Контроллер мониторинга и управления (16 дискретных входов, 8 дискретных выходов)",
+        "documentation": "https://www.elemy.ru/storage/download/CCU-1001%20Technical%20Documentation.zip",
+        "image_url": "https://www.elemy.ru/image/cache/webp/catalog/products/CCU-1001f3d-1500x999.webp",
+        "model": "CCU-1001",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/README.md",
+        "tags": [
+          "rack",
+          "ATS",
+          "АВР",
+          "snmp"
+        ],
+        "url": "https://www.elemy.ru/ccu-1001",
+        "vendor": "Elemy"
       },
       "snmp": {
         "files": [
@@ -86,32 +101,47 @@
         ]
       }
     },
-    "meta": {
-      "brand": "Elemy",
-      "description": "Российские системы мониторинга и управления электропитанием для IT и АСУТП",
-      "logo": "http://www.elemy.ru/image/cache/webp/catalog/elemy_logo2-260x80.webp",
-      "website": "http://www.elemy.ru"
-    },
-    "pdu1502": {
+    "ipdu1502": {
       "dashboard": {
         "files": [
           {
             "name": "IPDU-1502-1715690197754.json",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/PDU1502/dashboard/IPDU-1502-1715690197754.json"
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/IPDU1502/dashboard/IPDU-1502-1715690197754.json"
           }
-        ]
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/IPDU1502/dashboard/README.md"
+        }
       },
       "meta": {
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/PDU1502/README.md"
+        "description": "IPDU-1502 - Интеллектуальный горизонтальный блок распределения питания (6 выходов)",
+        "documentation": "https://www.elemy.ru/storage/download/iPDU-1502%20Technical%20Documentation.zip",
+        "image_url": "https://www.elemy.ru/image/cache/webp/catalog/products/1-1500x173.webp",
+        "model": "IPDU-1502",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/IPDU1502/README.md",
+        "tags": [
+          "rack",
+          "ATS",
+          "АВР",
+          "snmp"
+        ],
+        "url": "https://www.elemy.ru/ipdu-1502",
+        "vendor": "Elemy"
       },
       "snmp": {
         "files": [
           {
             "name": "Elemy_PDU1502_SNMP_1.0.0.conf",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/PDU1502/SNMP/Elemy_PDU1502_SNMP_1.0.0.conf"
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Elemy/IPDU1502/SNMP/Elemy_PDU1502_SNMP_1.0.0.conf"
           }
         ]
       }
+    },
+    "meta": {
+      "brand": "Elemy",
+      "description": "Российские системы мониторинга и управления электропитанием для IT и АСУТП",
+      "logo": "http://www.elemy.ru/image/cache/webp/catalog/elemy_logo2-260x80.webp",
+      "website": "http://www.elemy.ru"
     }
   },
   "exagate": {

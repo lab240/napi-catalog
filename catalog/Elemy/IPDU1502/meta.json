@@ -1,0 +1,14 @@
+{
+  "description": "IPDU-1502 - Интеллектуальный горизонтальный блок распределения питания (6 выходов)",
+  "documentation": "https://www.elemy.ru/storage/download/iPDU-1502%20Technical%20Documentation.zip",
+  "image_url": "https://www.elemy.ru/image/cache/webp/catalog/products/1-1500x173.webp",
+  "model": "IPDU-1502",
+  "tags": [
+    "rack",
+    "ATS",
+    "АВР",
+    "snmp"
+  ],
+  "url": "https://www.elemy.ru/ipdu-1502",
+  "vendor": "Elemy"
+}
