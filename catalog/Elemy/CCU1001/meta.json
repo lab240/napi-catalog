@@ -4,10 +4,9 @@
   "image_url": "https://www.elemy.ru/image/cache/webp/catalog/products/CCU-1001f3d-1500x999.webp",
   "model": "CCU-1001",
   "tags": [
-    "rack",
-    "ATS",
-    "АВР",
-    "snmp"
+    "Rack",
+    "SNMP",
+    "MODBUS TCP"
   ],
   "url": "https://www.elemy.ru/ccu-1001",
   "vendor": "Elemy"

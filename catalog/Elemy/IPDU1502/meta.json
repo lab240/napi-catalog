@@ -5,9 +5,10 @@
   "model": "IPDU-1502",
   "tags": [
     "rack",
-    "ATS",
+    "PDU",
     "АВР",
-    "snmp"
+    "SNMP",
+    "MODBUS TCP"
   ],
   "url": "https://www.elemy.ru/ipdu-1502",
   "vendor": "Elemy"

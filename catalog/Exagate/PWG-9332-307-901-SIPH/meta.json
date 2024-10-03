@@ -4,8 +4,13 @@
   "image_url": "https://nnz-ipc.ru/images/cms/data/import_files/1d/1d9d3ad057f311eeb91d00155d50c111_b192dd53e15811eeb91e00155d50c111.jpg",
   "model": "PWG-9332-307-901-SIPH",
   "tags": [
-    "snmp",
-    "modbus tcp"
+    "SMNP",
+    "PDU",
+    "SMTP",
+    "Telnet",
+    "HTTPS",
+    "SSH",
+    "SmartPack"
   ],
   "url": "https://nnz-ipc.ru/catalogue/dc_equipment/power_distribution/ipdu/pwg-9332-307-91-siph/",
   "vendor": "Exagate"

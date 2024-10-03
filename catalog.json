@@ -19,10 +19,11 @@
         "model": "ATS-1204",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/ATS-1204/README.md",
         "tags": [
-          "rack",
+          "Rack",
           "ATS",
           "АВР",
-          "snmp"
+          "SNMP",
+          "MODBUS TCP"
         ],
         "url": "http://www.elemy.ru/rack-ats/ats-1204-16",
         "vendor": "Elemy"
@@ -48,10 +49,11 @@
         "model": "ATS-1205",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/ATS-1205/README.md",
         "tags": [
-          "rack",
+          "Rack",
           "ATS",
           "АВР",
-          "snmp"
+          "SNMP",
+          "MODBUS TCP"
         ],
         "url": "http://www.elemy.ru/rack-ats/ats-1205",
         "vendor": "Elemy"
@@ -84,10 +86,9 @@
         "model": "CCU-1001",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/README.md",
         "tags": [
-          "rack",
-          "ATS",
-          "АВР",
-          "snmp"
+          "Rack",
+          "SNMP",
+          "MODBUS TCP"
         ],
         "url": "https://www.elemy.ru/ccu-1001",
         "vendor": "Elemy"
@@ -121,9 +122,10 @@
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/IPDU1502/README.md",
         "tags": [
           "rack",
-          "ATS",
+          "PDU",
           "АВР",
-          "snmp"
+          "SNMP",
+          "MODBUS TCP"
         ],
         "url": "https://www.elemy.ru/ipdu-1502",
         "vendor": "Elemy"
@@ -159,8 +161,13 @@
         "model": "PWG-9332-307-901-SIPH",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/README.md",
         "tags": [
-          "snmp",
-          "modbus tcp"
+          "SMNP",
+          "PDU",
+          "SMTP",
+          "Telnet",
+          "HTTPS",
+          "SSH",
+          "SmartPack"
         ],
         "url": "https://nnz-ipc.ru/catalogue/dc_equipment/power_distribution/ipdu/pwg-9332-307-91-siph/",
         "vendor": "Exagate"
@@ -176,17 +183,20 @@
     },
     "sysguard-7001": {
       "meta": {
-        "description": "SYSGuard 7001 is a solution for large and medium sized Data Centers and server rooms with IT-equipment that allows the monitoring of critical environmental parameters such as temperature, humidity, fluid leak, smoke, airflow, air quality, air pressure, rack vibration via a central unit and external sensors. Our solution is easy to setup and use and sends alerts in case user-defined thresholds values are exceeded. Thereby with our environment monitoring system is assisted for the increase in efficiency,productivity and reliability of Data Centers.",
+        "description": "SYSGuard 7001 - Система мониторинга параметров окружающей среды и  управления SYSGuard, обеспечивающее контроль помещений и критически важных объектов разного размера.",
         "documentation": "https://www.exagate.com/pdf/sysguard-en.pdf",
         "image_url": "https://www.exagate.com/demos/assets/images/product/sysguard-7001.png",
         "model": "SYSGuard-7001",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/SYSGuard-7001/README.md",
         "tags": [
-          "snmp",
-          "modbus tcp",
+          "SNMP",
+          "MODBUS",
           "MQTT",
           "RS-485",
-          "GPRS"
+          "GPRS",
+          "EMS",
+          "2G",
+          "4G"
         ],
         "url": "https://www.exagate.com/sysguard7001-en.php",
         "vendor": "Exagate"
@@ -201,19 +211,19 @@
       }
     }
   },
-  "icd-das": {
+  "icp-das": {
     "dl-303": {
       "meta": {
-        "description": "Remote CO/CO2/Temperature/Humidity/Dew Point Data Logger with Safety Alarm (RS-485, Ethernet, PoE)",
+        "description": "DL-303 - Модуль для измерения температуры, влажности и концентрации CO и CO2 с протоколированием данных, RS485, Ethernet, PoE, протоколы DCON, Modbus RTU, Modbus TCP, белый корпус, RoHS",
         "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
         "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
         "model": "DL-303",
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICD-DAS/DL-303/README.md",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/README.md",
         "tags": [
-          "modbus tcp",
-          "modbus rtu",
-          "tcp",
-          "rtu",
+          "MODBUS TCP",
+          "MODBUS RTU",
+          "TCP",
+          "RTU",
           "Temperature",
           "Humidity",
           "RS-485",
@@ -230,7 +240,7 @@
         "files": [
           {
             "name": "ICD-DAS_DL-303_ModbusRTU_1.0.0.conf",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICD-DAS/DL-303/ModbusRTU/ICD-DAS_DL-303_ModbusRTU_1.0.0.conf"
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/ModbusRTU/ICD-DAS_DL-303_ModbusRTU_1.0.0.conf"
           }
         ]
       },
@@ -238,7 +248,7 @@
         "files": [
           {
             "name": "ICD-DAS_DL-303_ModbusTCP_1.0.0.conf",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICD-DAS/DL-303/ModbusTCP/ICD-DAS_DL-303_ModbusTCP_1.0.0.conf"
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/ModbusTCP/ICD-DAS_DL-303_ModbusTCP_1.0.0.conf"
           }
         ]
       }

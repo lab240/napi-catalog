@@ -4,10 +4,11 @@
   "image_url": "http://www.elemy.ru/image/cache/webp/catalog/Products-new/ats-1205-16-62-front-1500x500.webp",
   "model": "ATS-1205",
   "tags": [
-    "rack",
+    "Rack",
     "ATS",
     "АВР",
-    "snmp"
+    "SNMP",
+    "MODBUS TCP"
   ],
   "url": "http://www.elemy.ru/rack-ats/ats-1205",
   "vendor": "Elemy"
