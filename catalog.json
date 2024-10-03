@@ -161,7 +161,7 @@
         "model": "PWG-9332-307-901-SIPH",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/README.md",
         "tags": [
-          "SMNP",
+          "SNMP",
           "PDU",
           "SMTP",
           "Telnet",
