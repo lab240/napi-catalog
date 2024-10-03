@@ -4,11 +4,8 @@
   "image_url": "https://www.elemy.ru/image/cache/webp/catalog/products/1-1500x173.webp",
   "model": "IPDU-1502",
   "tags": [
-    "rack",
-    "PDU",
-    "АВР",
     "SNMP",
-    "MODBUS TCP"
+    "dashboard"
   ],
   "url": "https://www.elemy.ru/ipdu-1502",
   "vendor": "Elemy"

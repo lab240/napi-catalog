@@ -4,18 +4,9 @@
   "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
   "model": "DL-303",
   "tags": [
-    "MODBUS TCP",
-    "MODBUS RTU",
-    "TCP",
-    "RTU",
-    "Temperature",
-    "Humidity",
-    "RS-485",
-    "PoE",
-    "Ethernet",
-    "CO",
-    "CO2",
-    "Dew Point"
+    "modbusTCP",
+    "modbusRTU",
+    "dashboard"
   ],
   "url": "https://www.icpdas.com/en/product/DL-303",
   "vendor": "ICP-DAS"

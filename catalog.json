@@ -19,11 +19,8 @@
         "model": "ATS-1204",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/ATS-1204/README.md",
         "tags": [
-          "Rack",
-          "ATS",
-          "АВР",
           "SNMP",
-          "MODBUS TCP"
+          "dashboard"
         ],
         "url": "http://www.elemy.ru/rack-ats/ats-1204-16",
         "vendor": "Elemy"
@@ -49,11 +46,7 @@
         "model": "ATS-1205",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/ATS-1205/README.md",
         "tags": [
-          "Rack",
-          "ATS",
-          "АВР",
-          "SNMP",
-          "MODBUS TCP"
+          "SNMP"
         ],
         "url": "http://www.elemy.ru/rack-ats/ats-1205",
         "vendor": "Elemy"
@@ -86,9 +79,8 @@
         "model": "CCU-1001",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/CCU1001/README.md",
         "tags": [
-          "Rack",
           "SNMP",
-          "MODBUS TCP"
+          "dashboard"
         ],
         "url": "https://www.elemy.ru/ccu-1001",
         "vendor": "Elemy"
@@ -121,11 +113,8 @@
         "model": "IPDU-1502",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/IPDU1502/README.md",
         "tags": [
-          "rack",
-          "PDU",
-          "АВР",
           "SNMP",
-          "MODBUS TCP"
+          "dashboard"
         ],
         "url": "https://www.elemy.ru/ipdu-1502",
         "vendor": "Elemy"
@@ -154,6 +143,21 @@
       "website": "https://www.exagate.com/"
     },
     "pwg-9332-307-901-siph": {
+      "dashboard": {
+        "files": [
+          {
+            "name": "Exagate-SIPH-1717155233070.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Exagate/PWG-9332-307-901-SIPH/dashboard/Exagate-SIPH-1717155233070.json"
+          },
+          {
+            "name": "Exagate-SIPH-OUTLETS-1717154876838.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Exagate/PWG-9332-307-901-SIPH/dashboard/Exagate-SIPH-OUTLETS-1717154876838.json"
+          }
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/dashboard/README.md"
+        }
+      },
       "meta": {
         "description": "Устройство распределения электропитания Exagate PWG-9332-307-91-SIPH POWERGuard PDU, 32A Single Phase 1U, 8 x IEC Sockets (7 x C13 - 1 x C19), Outlet Metering",
         "documentation": "https://nnz-ipc.ru/files/documentation/exagate/pwg-9332-307-91-siph_ds_ru.pdf",
@@ -162,12 +166,7 @@
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/PWG-9332-307-901-SIPH/README.md",
         "tags": [
           "SNMP",
-          "PDU",
-          "SMTP",
-          "Telnet",
-          "HTTPS",
-          "SSH",
-          "SmartPack"
+          "dashboard"
         ],
         "url": "https://nnz-ipc.ru/catalogue/dc_equipment/power_distribution/ipdu/pwg-9332-307-91-siph/",
         "vendor": "Exagate"
@@ -182,6 +181,25 @@
       }
     },
     "sysguard-7001": {
+      "dashboard": {
+        "files": [
+          {
+            "name": "SYSG-7001-1716996174931.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Exagate/SYSGuard-7001/dashboard/SYSG-7001-1716996174931.json"
+          }
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/SYSGuard-7001/dashboard/README.md"
+        },
+        "ver-with-varios-temp-sensors-10x": {
+          "files": [
+            {
+              "name": "SYSG-7001-1717421275019.json",
+              "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/Exagate/SYSGuard-7001/dashboard/ver-with-varios-temp-sensors-10x/SYSG-7001-1717421275019.json"
+            }
+          ]
+        }
+      },
       "meta": {
         "description": "SYSGuard 7001 - Система мониторинга параметров окружающей среды и  управления SYSGuard, обеспечивающее контроль помещений и критически важных объектов разного размера.",
         "documentation": "https://www.exagate.com/pdf/sysguard-en.pdf",
@@ -190,13 +208,7 @@
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Exagate/SYSGuard-7001/README.md",
         "tags": [
           "SNMP",
-          "MODBUS",
-          "MQTT",
-          "RS-485",
-          "GPRS",
-          "EMS",
-          "2G",
-          "4G"
+          "dashboard"
         ],
         "url": "https://www.exagate.com/sysguard7001-en.php",
         "vendor": "Exagate"
@@ -213,6 +225,17 @@
   },
   "icp-das": {
     "dl-303": {
+      "dashboard": {
+        "files": [
+          {
+            "name": "DL-303-1717671343194.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/dashboard/DL-303-1717671343194.json"
+          }
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/dashboard/README.md"
+        }
+      },
       "meta": {
         "description": "DL-303 - Модуль для измерения температуры, влажности и концентрации CO и CO2 с протоколированием данных, RS485, Ethernet, PoE, протоколы DCON, Modbus RTU, Modbus TCP, белый корпус, RoHS",
         "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
@@ -220,18 +243,9 @@
         "model": "DL-303",
         "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/README.md",
         "tags": [
-          "MODBUS TCP",
-          "MODBUS RTU",
-          "TCP",
-          "RTU",
-          "Temperature",
-          "Humidity",
-          "RS-485",
-          "PoE",
-          "Ethernet",
-          "CO",
-          "CO2",
-          "Dew Point"
+          "modbusTCP",
+          "modbusRTU",
+          "dashboard"
         ],
         "url": "https://www.icpdas.com/en/product/DL-303",
         "vendor": "ICP-DAS"

@@ -5,13 +5,7 @@
   "model": "SYSGuard-7001",
   "tags": [
     "SNMP",
-    "MODBUS",
-    "MQTT",
-    "RS-485",
-    "GPRS",
-    "EMS",
-    "2G",
-    "4G"
+    "dashboard"
   ],
   "url": "https://www.exagate.com/sysguard7001-en.php",
   "vendor": "Exagate"
