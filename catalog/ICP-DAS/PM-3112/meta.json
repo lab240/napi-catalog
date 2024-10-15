@@ -1,0 +1,12 @@
+{
+  "description": "PM-3112 - Измеритель параметров электросети",
+  "documentation": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
+  "image_url": "https://files.icp-das.ru/r/TtYWqjjUUos/rs:fill-down:300:300:1/q:100/plain/images/collections/1/2477/93546925/large_PM-3112-100_la02.png@webp",
+  "model": "PM-3112",
+  "tags": [
+    "modbusRTU",
+    "dashboard"
+  ],
+  "url": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
+  "vendor": "ICP-DAS"
+}

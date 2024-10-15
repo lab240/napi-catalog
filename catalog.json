@@ -272,6 +272,40 @@
       "description": "Industrial Automation Manufacturer",
       "logo": "https://www.icpdas.com/en/_images/all/logo.png",
       "website": "https://www.icpdas.com/"
+    },
+    "pm-3112": {
+      "dashboard": {
+        "files": [
+          {
+            "name": "PM-3112-1728995722993.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/PM-3112/dashboard/PM-3112-1728995722993.json"
+          }
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/PM-3112/dashboard/README.md"
+        }
+      },
+      "meta": {
+        "description": "PM-3112 - Измеритель параметров электросети",
+        "documentation": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
+        "image_url": "https://files.icp-das.ru/r/TtYWqjjUUos/rs:fill-down:300:300:1/q:100/plain/images/collections/1/2477/93546925/large_PM-3112-100_la02.png@webp",
+        "model": "PM-3112",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/PM-3112/README.md",
+        "tags": [
+          "modbusRTU",
+          "dashboard"
+        ],
+        "url": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
+        "vendor": "ICP-DAS"
+      },
+      "modbusrtu": {
+        "files": [
+          {
+            "name": "PM-3112_ModbusRTU_1.0.0.conf",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/PM-3112/ModbusRTU/PM-3112_ModbusRTU_1.0.0.conf"
+          }
+        ]
+      }
     }
   }
 }
