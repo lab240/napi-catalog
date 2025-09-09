@@ -5,6 +5,7 @@
   "model": "JSY1003F",
   "tags": [
     "modbusRTU",
+    "modbusTCP",
     "dashboard"
   ],
   "url": "",

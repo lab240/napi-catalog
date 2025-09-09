@@ -14,6 +14,7 @@
         "model": "JSY1003F",
         "tags": [
           "modbusRTU",
+          "modbusTCP",
           "dashboard"
         ],
         "url": "",
@@ -24,8 +25,93 @@
           "name": "NapiLab_JSY1003F_ModbusRTU_1.0.0.conf",
           "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/napi/JSY1003F/ModbusRTU/NapiLab_JSY1003F_ModbusRTU_1.0.0.conf",
           "tag": "modbusrtu"
+        },
+        {
+          "name": "NapiLab_JSY1003F_ModbusTCP_1.0.0.conf",
+          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/napi/JSY1003F/ModbusTCP/NapiLab_JSY1003F_ModbusTCP_1.0.0.conf",
+          "tag": "modbustcp"
         }
       ]
+    }
+  },
+  "icp-das": {
+    "meta": {
+      "brand": "icp-das",
+      "description": "Industrial Automation Manufacturer",
+      "logo": "https://www.icpdas.com/en/_images/all/logo.png",
+      "website": "https://www.icpdas.com/"
+    },
+    "pm-3112": {
+      "meta": {
+        "description": "PM-3112 - Измеритель параметров электросети",
+        "documentation": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
+        "image_url": "https://files.icp-das.ru/r/TtYWqjjUUos/rs:fill-down:300:300:1/q:100/plain/images/collections/1/2477/93546925/large_PM-3112-100_la02.png@webp",
+        "model": "PM-3112",
+        "tags": [
+          "modbusRTU",
+          "dashboard"
+        ],
+        "url": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
+        "vendor": "ICP-DAS",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/PM-3112/README.md"
+      },
+      "configs": [
+        {
+          "name": "PM-3112_ModbusRTU_1.0.0.conf",
+          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/PM-3112/ModbusRTU/PM-3112_ModbusRTU_1.0.0.conf",
+          "tag": "modbusrtu"
+        }
+      ],
+      "dashboard": {
+        "files": [
+          {
+            "name": "PM-3112-1728995722993.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/PM-3112/dashboard/PM-3112-1728995722993.json"
+          }
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/PM-3112/dashboard/README.md"
+        }
+      }
+    },
+    "dl-303": {
+      "meta": {
+        "description": "DL-303 - Модуль для измерения температуры, влажности и концентрации CO и CO2 с протоколированием данных, RS485, Ethernet, PoE, протоколы DCON, Modbus RTU, Modbus TCP, белый корпус, RoHS",
+        "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
+        "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
+        "model": "DL-303",
+        "tags": [
+          "modbusTCP",
+          "modbusRTU",
+          "dashboard"
+        ],
+        "url": "https://www.icpdas.com/en/product/DL-303",
+        "vendor": "ICP-DAS",
+        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/README.md"
+      },
+      "configs": [
+        {
+          "name": "ICD-DAS_DL-303_ModbusTCP_1.0.0.conf",
+          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/ModbusTCP/ICD-DAS_DL-303_ModbusTCP_1.0.0.conf",
+          "tag": "modbustcp"
+        },
+        {
+          "name": "ICD-DAS_DL-303_ModbusRTU_1.0.0.conf",
+          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/ModbusRTU/ICD-DAS_DL-303_ModbusRTU_1.0.0.conf",
+          "tag": "modbusrtu"
+        }
+      ],
+      "dashboard": {
+        "files": [
+          {
+            "name": "DL-303-1717671343194.json",
+            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/dashboard/DL-303-1717671343194.json"
+          }
+        ],
+        "meta": {
+          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/dashboard/README.md"
+        }
+      }
     }
   },
   "elemy": {
@@ -157,86 +243,6 @@
         ],
         "meta": {
           "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/Elemy/IPDU1502/dashboard/README.md"
-        }
-      }
-    }
-  },
-  "icp-das": {
-    "meta": {
-      "brand": "icp-das",
-      "description": "Industrial Automation Manufacturer",
-      "logo": "https://www.icpdas.com/en/_images/all/logo.png",
-      "website": "https://www.icpdas.com/"
-    },
-    "pm-3112": {
-      "meta": {
-        "description": "PM-3112 - Измеритель параметров электросети",
-        "documentation": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
-        "image_url": "https://files.icp-das.ru/r/TtYWqjjUUos/rs:fill-down:300:300:1/q:100/plain/images/collections/1/2477/93546925/large_PM-3112-100_la02.png@webp",
-        "model": "PM-3112",
-        "tags": [
-          "modbusRTU",
-          "dashboard"
-        ],
-        "url": "https://icp-das.ru/collection/izmeriteli-odnofaznye",
-        "vendor": "ICP-DAS",
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/PM-3112/README.md"
-      },
-      "configs": [
-        {
-          "name": "PM-3112_ModbusRTU_1.0.0.conf",
-          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/PM-3112/ModbusRTU/PM-3112_ModbusRTU_1.0.0.conf",
-          "tag": "modbusrtu"
-        }
-      ],
-      "dashboard": {
-        "files": [
-          {
-            "name": "PM-3112-1728995722993.json",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/PM-3112/dashboard/PM-3112-1728995722993.json"
-          }
-        ],
-        "meta": {
-          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/PM-3112/dashboard/README.md"
-        }
-      }
-    },
-    "dl-303": {
-      "meta": {
-        "description": "DL-303 - Модуль для измерения температуры, влажности и концентрации CO и CO2 с протоколированием данных, RS485, Ethernet, PoE, протоколы DCON, Modbus RTU, Modbus TCP, белый корпус, RoHS",
-        "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
-        "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
-        "model": "DL-303",
-        "tags": [
-          "modbusTCP",
-          "modbusRTU",
-          "dashboard"
-        ],
-        "url": "https://www.icpdas.com/en/product/DL-303",
-        "vendor": "ICP-DAS",
-        "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/README.md"
-      },
-      "configs": [
-        {
-          "name": "ICD-DAS_DL-303_ModbusRTU_1.0.0.conf",
-          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/ModbusRTU/ICD-DAS_DL-303_ModbusRTU_1.0.0.conf",
-          "tag": "modbusrtu"
-        },
-        {
-          "name": "ICD-DAS_DL-303_ModbusTCP_1.0.0.conf",
-          "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/ModbusTCP/ICD-DAS_DL-303_ModbusTCP_1.0.0.conf",
-          "tag": "modbustcp"
-        }
-      ],
-      "dashboard": {
-        "files": [
-          {
-            "name": "DL-303-1717671343194.json",
-            "url": "https://raw.githubusercontent.com/lab240/napi-catalog/refs/heads/main/catalog/ICP-DAS/DL-303/dashboard/DL-303-1717671343194.json"
-          }
-        ],
-        "meta": {
-          "readme": "https://github.com/lab240/napi-catalog/blob/main/catalog/ICP-DAS/DL-303/dashboard/README.md"
         }
       }
     }
