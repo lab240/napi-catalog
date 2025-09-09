@@ -8,6 +8,8 @@ This repository is designed to catalog various devices and their configurations.
 
 - **catalog.mjs**: Script to traverse the `catalog/` directory and build a catalog structure, saving it to `catalog.json`.
 
+`node catalog.mjs`
+
 ## Contributing
 
 Get more information on the [corresponding page](CONTRIBUTING.md)
