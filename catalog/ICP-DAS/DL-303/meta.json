@@ -1,12 +1,13 @@
 {
-  "description": "JSY1003F - Датчик измерения тока, напряжения, мощности, энергии по UART (Modbus RTU)",
-  "documentation": "",
-  "image_url": "",
-  "model": "JSY1003F",
+  "description": "DL-303 - Модуль для измерения температуры, влажности и концентрации CO и CO2 с протоколированием данных, RS485, Ethernet, PoE, протоколы DCON, Modbus RTU, Modbus TCP, белый корпус, RoHS",
+  "documentation": "https://www.icpdas.com/web/product/download/iiot/sensor/dl-300/document/data_sheet/DL-301_302_303_304_305_306_307_308_en.pdf",
+  "image_url": "https://www.icpdas.com/web/product/product_Image/png/iiot/sensor/DL-300/DL-303/DL-303_la01.png",
+  "model": "DL-303",
   "tags": [
+    "modbusTCP",
     "modbusRTU",
     "dashboard"
   ],
-  "url": "",
-  "vendor": "NapiLab"
+  "url": "https://www.icpdas.com/en/product/DL-303",
+  "vendor": "ICP-DAS"
 }
